@@ -1,0 +1,27 @@
+#tab {
+    font-family: 'Cafe24', sans-serif;
+    text-align: center;
+    width: 1500px;
+    height: 100px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+    position: relative;
+}
+    
+#tabb ul {
+    display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+ }
+    
+#tab ul li {
+    display: inline-block;
+    margin: 30px;
+    font-size: 30px;
+    position: relative; 
+    color:rgb(212, 212, 62);
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+#home {
+    display: flex;
+    align-items: center;
+}
+
+#firstinfo {
+    font-size: 80px;
+    margin-left: 50px;
+}
+
+#profile {
+    width: 500px;
+    float: left;
+    margin: 50px;
+}
