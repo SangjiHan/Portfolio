@@ -1,0 +1,54 @@
+header {
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+hr {
+    border: 1px solid rgb(165, 165, 165);
+    width: 800px;
+}
+
+#title {
+    font-family: 'KoPub Dotum', sans-serif;
+    width: 40%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    font-size: 40px;
+    background-color: #87CEFA;
+    color: azure;
+}
+
+#tab {
+    font-family: 'KoPub Dotum', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+ul {
+    display: block; /* ul을 블록 레벨 요소로 변경 */
+    padding: 0;
+    text-align: center;
+}
+    
+ul li {
+    display: inline-block;
+    margin: 0 32px; 
+    font-size: 20px; 
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    
+}

@@ -17,4 +17,6 @@
 
 body {
     font-family: 'Happiness', sans-serif;
+    width: 1000px;
+    margin:0 auto;
 }
