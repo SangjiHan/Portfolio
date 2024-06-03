@@ -5,6 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
+	<script src="script/home.js"></script>
+	<script src="script/aboutme.js"></script>
 
 	<link rel="stylesheet" href="css/body.css">
 	<link rel="stylesheet" href="css/header.css">
@@ -17,8 +19,8 @@
 	<div id="tab">
 		<hr>
 		<ul>
-			<li> HOME </li>
-			<li> ABOUT ME </li>
+			<li onclick="home()"> HOME </li>
+			<li onclick="aboutme()"> ABOUT ME </li>
 			<li> SKILLS </li>
 			<li> PROJECT </li>
 			<li> CONTACT </li>
@@ -28,28 +30,43 @@
 	
 </header>
 <body>
+	<div id="total">
+
 	
-	<div id="home"> 
-	<img id="profile" src="image/profile1.jpg">
-	<p id="firstinfo">안녕하세요 <br> <span style="color:rgb(20, 10, 153)"> 웹 개발자</span> 한상지입니다. </p>
-	</div>
-	
-	<div id="aboutme">
-		이름 : 한상지
-		생년월일 :  <br>
-		주소 :  <br>
-		수료 내역 : 
+		<div id="home"> 
+		<img id="profile" src="image/profile1.jpg">
+		<p id="firstinfo">안녕하세요 <br> <span style="color:rgb(20, 10, 153)"> 데이터로 소통하는 웹 개발자 </span> <br> 한상지입니다. </p>
+		</div>
 		
-		<ul> 학력 </ul>
-		<li> 2015.03 ~ 2019.02  </li>
+		<div id="aboutme">
+			이름 : 한상지
+			생년월일 :  <br>
+			주소 :  <br>
+			수료 내역 : 
+			
+			<ul> 학력 </ul>
+			<li> 2015.03 ~ 2019.02  </li>
 
-		<ul> 경력 </ul>
-		<li> 2021.09.01 ~ 2021.12.31  </li>
+			<ul> 경력 </ul>
+			<li> 2021.09.01 ~ 2021.12.31  </li>
 
-		<ul> 자격증 </ul>
-		<li> 2022.09.08 Mos 2016 Master </li>
-		<li> 2022.06.24 워드프로세서 </li>
-		<li> 2022.06.17 ADsP(데이터분석 준전문가) </li>
+			<ul> 자격증 </ul>
+			<li> 2022.09.08 Mos 2016 Master </li>
+			<li> 2022.06.24 워드프로세서 </li>
+			<li> 2022.06.17 ADsP(데이터분석 준전문가) </li>
+		</div>
+
+		<div id="skills">
+			
+		</div>
+
+		
 	</div>
+
+	<div id="homearea"> </div>
+	<div id="aboutmearea"> </div>
+	<div id="skillsarea"> </div>
+	<div id="projectarea"> </div>
+	<div id="contactarea"></div>
 </body>
 </html>
