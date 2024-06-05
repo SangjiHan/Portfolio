@@ -1,15 +1,16 @@
 #home {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 #firstinfo {
-    font-size: 45px;
-    margin-left: 50px;
+    font-size: 30px;
+    margin: 0 auto;
 }
 
 #profile {
-    width: 300px;
-    float: left;
+    width: 270px;
     margin: 50px;
+    float: left;
 }
