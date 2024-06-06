@@ -1,16 +1,36 @@
 #home {
-    display: flex;
+    display: inline-block;
     align-items: center;
     width: 100%;
 }
 
 #firstinfo {
-    font-size: 30px;
-    margin: 0 auto;
+    font-size: 20px;
+    margin: 80px 0 30px;
 }
 
 #profile {
     width: 270px;
     margin: 50px;
     float: left;
+}
+
+#info {
+    border: 1px solid black;
+    border-collapse: collapse; 
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 15px;
+    
+}
+
+#info td:nth-child(odd) {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+#info td:nth-child(even) {
+    width: 400px;
+    padding: 10px;
 }
