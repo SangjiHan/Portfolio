@@ -18,3 +18,13 @@ function project() {
     var projectArea = document.getElementById("projectarea");
     projectArea.innerHTML = projectContent;
 }
+
+var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '">' + (index + 1) + "</span>";
+      },
+    },
+  });
