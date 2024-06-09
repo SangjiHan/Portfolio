@@ -20,6 +20,11 @@
     src: url('font/Bubblegum.ttf');
 }
 
+@font-face {
+    font-family: 'Noto';
+    src: url('font/NotoSansKR-VariableFont_wght.ttf');
+}
+
 body {
     display: grid;
     place-items: center;

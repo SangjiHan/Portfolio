@@ -15,20 +15,19 @@
 	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet" href="css/aboutme.css">
 	<link rel="stylesheet" href="css/skills.css">
+	<link rel="stylesheet" href="css/project.css">
 
 </head>
 
 
 <body>
 	<header>
-		<nav id="tab">
-			<ul>
-				<li> HOME </li>
-				<li> ABOUT ME </li>
-				<li> SKILLS </li>
-				<li> PROJECT </li>
-				<li> CONTACT </li>
-			</ul>
+		<nav>
+			<a href="#">HOME</a>
+			<a href="#">ABOUT ME</a>
+			<a href="#">SKILLS</a>
+			<a href="#">PROJECT</a>
+			<a href="#">CONTACT</a>
 		</nav>
 		
 		
@@ -40,17 +39,16 @@
 			<div id="portfolio"> Portfolio </div>
 			<hr>
 			<div id="text_box">
-				<div id="text"> 데이터로 소통하는 프론트엔드 개발자 \n 한상지입니다.</div>
-					
-			</div>
-			<div id="firstinfo">
+				<span id="text"></span> <span id="blink">|</span>
+			  </div>
+			  <div id="firstinfo">
 				수학을 전공하며 통계학을 접하게 되었습니다 <br>
 				한국교육개발원에서 인턴을 하며 데이터베이스에 관련된 업무를 수행했습니다 <br>
 				이후 데이터로 프로그램의 구성, 성능을 높일 수 있다는 것을 깨닫게 되었습니다 <br>
 				데이터 분석을 통해 심도있게 다루고자 국비교육을 듣게 되었습니다 <br>
 				그중에서도 사용자의 편리를 높일 수 있는 프론트엔드에 관심을 갖게 되었습니다.
-
 			</div>
+			<div id="more"> 더 알아보기 </div>
 		</div>
 		
 		<div id="aboutmearea">
@@ -80,30 +78,47 @@
 				</tr>
 			</table>
 
+			
+
 		</div>
 		
 
 		<div id="skillsarea">
 			<hr>
 			<div id="skills"> SKILLS </div>
-		</div>
+			<span id="overview"> * 마우스 오버 시 상세 설명을 볼 수 있습니다. </span>
 
-		<div id="project">
-			프로젝트
-			<div class="swiper mySwiper">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">Slide 1</div>
-					<div class="swiper-slide">Slide 2</div>
-					<div class="swiper-slide">Slide 3</div>
-					<div class="swiper-slide">Slide 4</div>
-					<div class="swiper-slide">Slide 5</div>
-					<div class="swiper-slide">Slide 6</div>
-					<div class="swiper-slide">Slide 7</div>
-					<div class="swiper-slide">Slide 8</div>
-					<div class="swiper-slide">Slide 9</div>
-				</div>
-				<div class="swiper-pagination"></div>
-			</div>
+			<div id="skilltitle"> Front-end </div>
+			<div class="card">
+				<div class="card-front">HTML/CSS</div>
+				<div class="card-back">웹 사이트를 만들 수 있습니다. <br> 애니메이션 효과를 만들 수 있습니다. </div>
+			  </div> 
+
+			  <div class="card">
+				<div class="card-front"> Javascript</div>
+				<div class="card-back"> 함수를 사용해 인터페이스를 구현할 수 있습니다. </div>
+			  </div> 
+			
+			  <div id="skilltitle"> Back-end </div>
+			  <div class="card">
+				<div class="card-front"> Python </div>
+				<div class="card-back"> 데이터를 수집하고 분석할 수 있습니다. <br> 데이터 시각화가 가능합니다. </div>
+			  </div>
+
+			  <div id="skilltitle"> ETC </div>
+			  <div class="card">
+				<div class="card-front"> Tableau </div>
+				<div class="card-back"> 데이터를 수집하고 분석할 수 있습니다. <br> 데이터 시각화가 가능합니다. </div>
+			  </div> 
+
+		</div>
+		
+
+		<div id="projectarea">
+			<hr>
+			<div id="project"> PROJECT</div>
+
+		
 		</div>
 
 		<div id="contact">
