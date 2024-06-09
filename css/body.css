@@ -20,15 +20,12 @@
     src: url('font/Bubblegum.ttf');
 }
 
-html {
-    background: linear-gradient(to bottom, #82aaff, #fffbbe);
-}
-
 body {
+    display: grid;
+    place-items: center;
     font-family: 'Happiness', sans-serif;
-    width: 1000px;
-    margin:0 auto;
-    border: 1px solid black;
-    background-color: white;
+    width: 100%;
+    margin: 0;
+    border: 1px solid rgb(187, 187, 187);
+    background: linear-gradient(to bottom, rgba(117, 216, 255, 0.5), rgba(255, 254, 167, 0.5));
 }
-

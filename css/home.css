@@ -1,17 +1,36 @@
 #home {
-    width: 100%;
+    width: 1000px;
     height: 100vh;
     text-align: center;
+    border-right: 1px solid rgb(196, 196, 196);
+    border-left: 1px solid rgb(196, 196, 196);
+    background-color: rgb(255, 255, 255, 0.7);
 }
 
-#title {
+#name {
     font-family: Bubblegum;
     font-size: 130px;
     margin-top: 150px;
+    color: rgb(96, 210, 255);
+}
+#portfolio {
+    font-family: Bubblegum;
+    font-size: 90px;
+    color:rgb(255, 248, 145);
 }
 
 #typing {
     font-size: 50px;
-    margin : 100px;
+    margin-top : 50px;
 }
 
+hr {
+    border: 1px dashed rgb(212, 212, 212); 
+    width: 80%;
+    margin-top: 50px;
+}
+
+#firstinfo {
+    font-size: 15px;
+    margin-top : 50px;
+}

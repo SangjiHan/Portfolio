@@ -1,8 +1,28 @@
+#aboutme {
+    font-family: 'Bubblegum', sans-serif;
+    height: 60px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(83, 177, 255);
+}
+
+#aboutmearea {
+    width: 1000px;
+    height: 100vh;
+    text-align: center;
+    border-right: 1px solid rgb(196, 196, 196);
+    border-left: 1px solid rgb(196, 196, 196);
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+
 #info {
-    border: 1px solid black;
     border-collapse: collapse; 
     display: inline-block;
-    margin: 100px 30px 70px;
+    margin: 100px 0 70px 0;
     font-size: 15px;
     float: right;
 }
@@ -16,37 +36,12 @@
 #info td:nth-child(even) {
     width: 450px;
     padding: 20px;
+    text-align: left;
 }
 
-#aboutmearea {
-    width: 100%;
-    height: 100vh;
-    display: block;
-    border-top: 2px dashed rgb(156, 156, 156);
-}
-
-#skills {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(255, 242, 185); 
-}
-
-#image2 {
+#profile {
     width: 250px;
     border-radius: 50%;
     float: left;
-    margin: 100px 0 70px 20px;
-}
-
-#aboutme {
-    font-family: 'KoPub Dotum', sans-serif;
-    width: 50%;
-    height: 60px;
-    margin: 50px auto 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    background-color: #87CEFA;
-    color: azure;
+    margin: 150px 30px 50px 80px;
 }
