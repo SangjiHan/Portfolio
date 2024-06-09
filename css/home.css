@@ -1,13 +1,17 @@
-body {
-    font-family: 'Happiness', sans-serif;
-    width: 1000px;
-    margin:0 auto;
-    border: 1px solid black;
-}
 #home {
-    display: inline-block;
-    align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    text-align: center;
+}
+
+#title {
+    font-family: Bubblegum;
+    font-size: 130px;
+    margin-top: 150px;
+}
+
+#typing {
+    font-size: 50px;
+    margin : 100px;
 }
 
