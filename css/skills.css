@@ -15,50 +15,6 @@
 }
 
 
-.card {
-    display: inline-grid;
-    color: rgb(255, 255, 255);
-    transition: transform 0.3s;
-    transform: perspective(800px) rotateY(0deg);
-    transform-style: preserve-3d;
-    background-color: rgb(255, 255, 255);
-    font-family: Noto;
-    font-size: 15px;
-    margin:5px;
-    border: 1px solid #FFAAA7;
-}
-
-
-  .card:hover {
-    transform: perspective(800px) rotateY(180deg);
-  }
-
-  .card > * {
-    grid-area: 1 / 1 / 1 / 1;
-    width: 120px;
-    height: 100px;
-    padding: 5px;
-    backface-visibility: hidden;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    
-}
-
-  .card-front {
-    background-color: #FFAAA7;
-  }
-
-  .card-back {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    transform: rotateY(180deg);
-  }
-#overview {
-    color: gray;
-}
-
 hr {
     width: 80%; 
     margin: 50px auto; 
@@ -69,4 +25,10 @@ hr {
     font-size: 20px;
     font-family: Noto;
     margin: 30px;
+}
+
+#frontendarea {
+  width: 300px;
+  height: 500px;
+  border:1px solid black;
 }
