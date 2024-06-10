@@ -11,6 +11,7 @@
 #aboutmearea {
     width: 1000px;
     text-align: center;
+    height: 100vh;
 }
 
 
@@ -39,4 +40,12 @@
     border-radius: 50%;
     float: left;
     margin: 80px 30px 50px 80px;
+}
+
+#firstinfo {
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Noto;
+    display: inline-block;
+    color: gray;
 }

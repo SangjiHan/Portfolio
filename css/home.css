@@ -1,17 +1,18 @@
 #home {
     width: 1000px;
+    height: 100vh;
     text-align: center;
 }
 
 #name {
     font-family: Bubblegum;
-    font-size: 130px;
+    font-size: 100px;
     margin-top: 70px;
     color: #98DDCA;
 }
 #portfolio {
     font-family: Bubblegum;
-    font-size: 90px;
+    font-size: 70px;
     color:#FFAAA7;
 }
 
@@ -24,12 +25,6 @@ hr {
     border: 1px dashed rgb(212, 212, 212); 
     width: 80%;
     margin-top: 50px;
-}
-
-#firstinfo {
-    font-size: 15px;
-    margin-top : 50px;
-    font-family: Noto;
 }
 
 #blink {
