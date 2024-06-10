@@ -2,60 +2,69 @@
     width: 1000px;
     height: 100vh;
     text-align: center;
+    position: relative;
 }
 
 #name {
-    font-family: Bubblegum;
+    font-family: sbm;
     font-size: 100px;
-    margin-top: 70px;
-    color: #98DDCA;
+    margin-top: 100px;
+    color: #ffffff;
+    background-color: rgb(19, 19, 128);
 }
 #portfolio {
-    font-family: Bubblegum;
+    font-family: sbm;
     font-size: 70px;
-    color:#FFAAA7;
+    color:#000000;
 }
 
-#text {
-    font-size: 40px;
-    font-family: Noto;
-}
-
-hr {
-    border: 1px dashed rgb(212, 212, 212); 
-    width: 80%;
+#hello {
+    text-align: left;
+    font-size: 30px;
+    height: 400px;
+    width: 600px;
+    float: left;
+    position: relative; 
     margin-top: 50px;
 }
 
-#blink {
-    animation: blink 0.5s infinite;
-    font-size: 40px;
-    line-height: 1.5; 
-  }
-  
-  @keyframes blink {
-    to {
-      opacity: 0;
-    }
-  }
+#title {
+    position: absolute; /* 절대적인 위치 설정 */
+    bottom: 0; /* 아래쪽으로 이동 */
+    left: 0; /* 왼쪽 정렬 */
+}
 
+#data {
+    color: rgb(19, 19, 128);
+    font-size: 35px;
+    font-weight: 600;
+}
 
-#text_box {
-    width: 100%;
-    height: 150px;
-    float: center ;
-    text-align: center;
-    margin-top : 50px;
-    line-height: 1.5; 
+#titlelist {
+    font-size: 18px;
+    line-height: 2;
+
+}
+
+#profile {
+    width: 300px;
+    float: right;
+    margin: 20px;
+    display:inline-block;
+    
 }
 
 #more {
     padding: 10px 20px;
-    background-color:#FFAAA7;
+    background-color: rgb(19, 19, 128);
     color: white;
     cursor: pointer;
-    width: 100px;
+    width: 150px; 
     text-align: center;
-    margin:0 auto;
-    margin-top: 100px;
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
 }
+
+

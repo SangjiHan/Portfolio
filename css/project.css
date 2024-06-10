@@ -1,11 +1,11 @@
 #project {
-    font-family: 'Bubblegum', sans-serif;
+    font-family: 'sbm', sans-serif;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: #98DDCA;
+    color: rgb(19, 19, 128);
 }
 
 #projectarea {
@@ -16,19 +16,18 @@
 }
 
 #projectbox{
-    width: 900px;
-    height: 400px;
+    width: 300px;
+    height: 700px;
     border: 1px solid black;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+    margin: 50px 20px 20px 20px;
+    vertical-align: top;
 }
 
 #projectimg img {
-    height: 300px;
+    width:300px;
     float: left;
-    margin-right: 30px;
+    margin: 10px 20px 0 0;
 }
 
 #projecttotal {
@@ -43,18 +42,23 @@
 }
 
 
-
 #projectduration {
     margin-bottom: 10px;
     font-weight: 600;
 }
 
 #projectbox button {
-    border: 1px solid #FFAAA7;
-    width: 150px;
-    height: 40px;
-    background-color: white;
-    margin: 20px;
-    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 80px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 10px 0 0;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#projectinfo {
+    font-size: 15px;
 }
 

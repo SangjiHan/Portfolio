@@ -1,11 +1,11 @@
 #aboutme {
-    font-family: 'Bubblegum', sans-serif;
+    font-family: 'sbm', sans-serif;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: #98DDCA;
+    color: rgb(19, 19, 128);
 }
 
 #aboutmearea {
@@ -17,9 +17,9 @@
 
 #info {
     border-collapse: collapse; 
-    margin: 50px 0 70px 0;
+    margin: 0 auto;
     font-size: 15px;
-    float: right;
+    justify-content: center;
 }
 
 #info td:nth-child(odd) {
@@ -34,12 +34,7 @@
     text-align: left;
 }
 
-#profile {
-    width: 250px;
-    border-radius: 50%;
-    float: left;
-    margin: 80px 30px 50px 80px;
-}
+
 
 #firstinfo {
     font-size: 18px;
