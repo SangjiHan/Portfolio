@@ -1,22 +1,7 @@
 @font-face {
-    font-family: 'Cafe24';
-    src: url('font/Cafe24Ssurround-v2.0.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KoPub Dotum';
-    src: url('font/KoPub\ Dotum\ Light.ttf');
-}
-
-
-@font-face {
     font-family: 'Noto';
     src: url('font/NotoSansKR-VariableFont_wght.ttf');
 }
-
-
 
 @font-face {
     font-family: 'sbm';
