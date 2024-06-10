@@ -5,12 +5,11 @@
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: rgb(83, 177, 255);
+    color: #98DDCA;
 }
 
 #aboutmearea {
     width: 1000px;
-    height: 100vh;
     text-align: center;
     border-right: 1px solid rgb(196, 196, 196);
     border-left: 1px solid rgb(196, 196, 196);
@@ -21,7 +20,7 @@
 #info {
     border-collapse: collapse; 
     display: inline-block;
-    margin: 100px 0 70px 0;
+    margin: 50px 0 70px 0;
     font-size: 15px;
     float: right;
 }
@@ -42,5 +41,5 @@
     width: 250px;
     border-radius: 50%;
     float: left;
-    margin: 150px 30px 50px 80px;
+    margin: 80px 30px 50px 80px;
 }

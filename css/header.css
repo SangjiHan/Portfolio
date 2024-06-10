@@ -4,7 +4,7 @@ header {
     left: 50%;
     transform: translateX(-50%); 
     width: 100%;
-    background-color: rgb(117, 216, 255);
+    background-color: #D5ECC2;
     z-index: 10; 
 }
 

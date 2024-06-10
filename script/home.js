@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const content = "Hi, I'm Sangji. \n front-end developer.";
+    const content = "Hi, I'm Sangji. \n Front-end developer.";
     const text = document.querySelector("#text");
     let i = 0;
 

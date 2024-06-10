@@ -10,12 +10,12 @@
     font-family: Bubblegum;
     font-size: 130px;
     margin-top: 70px;
-    color: rgb(83, 177, 255);
+    color: #98DDCA;
 }
 #portfolio {
     font-family: Bubblegum;
     font-size: 90px;
-    color:rgb(255, 248, 145);
+    color:#FFAAA7;
 }
 
 #text {
@@ -59,7 +59,7 @@ hr {
 
 #more {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color:#FFAAA7;
     color: white;
     cursor: pointer;
     width: 100px;

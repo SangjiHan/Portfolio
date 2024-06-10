@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: rgb(83, 177, 255);
+    color: #98DDCA;
 }
 
 #skillsarea {
@@ -20,15 +20,15 @@
 
 .card {
     display: inline-grid;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: transform 0.3s;
     transform: perspective(800px) rotateY(0deg);
     transform-style: preserve-3d;
-    border: 2px solid rgb(83, 177, 255);
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
     font-family: Noto;
     font-size: 15px;
-    margin:10px;
+    margin:5px;
+    border: 1px solid #FFAAA7;
 }
 
 
@@ -38,10 +38,9 @@
 
   .card > * {
     grid-area: 1 / 1 / 1 / 1;
-    width: 100px;
-    height: 120px;
-    padding: 12px;
-    border-radius: 8px;
+    width: 120px;
+    height: 100px;
+    padding: 5px;
     backface-visibility: hidden;
     display: flex; 
     justify-content: center;
@@ -51,11 +50,12 @@
 }
 
   .card-front {
-    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-color: #FFAAA7;
   }
 
   .card-back {
-    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-color: rgb(255, 255, 255);
+    color: black;
     transform: rotateY(180deg);
   }
 #overview {
