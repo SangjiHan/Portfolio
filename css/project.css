@@ -9,8 +9,55 @@
 }
 
 #projectarea {
-    width: 1000px;
+    width: 1500px;
     height: 100vh;
     text-align: center;
-   
+    align-items: center;
 }
+
+#projectbox{
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#projectimg img {
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+}
+
+#projecttotal {
+    text-align: left;
+}
+
+#projecttitle {
+    font-size: 30px;
+    margin: 30px 50px 20px 50px;
+    padding: 10px;
+    border-bottom: 1px solid #FFAAA7;
+}
+
+#projectduration {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#projectcontribution {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#projectbox button {
+    border: 1px solid #FFAAA7;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+}
+
