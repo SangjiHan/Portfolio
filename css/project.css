@@ -16,29 +16,34 @@
 }
 
 #projectbox{
-    width: 300px;
-    height: 700px;
-    border: 1px solid black;
-    display: inline-block;
-    margin: 50px 20px 20px 20px;
-    vertical-align: top;
+    width: 350px;
+  height: 700px;
+  display: inline-block;
+  margin: 50px 20px 20px 20px;
+  vertical-align: top;
 }
 
-#projectimg img {
-    width:300px;
-    float: left;
-    margin: 10px 20px 0 0;
+#projectimg{
+    height: 300px;
+  width: 300px;
+  margin-top: 30 auto;
+  
 }
 
 #projecttotal {
-    text-align: left;
+    border:2px solid rgb(19, 19, 128);
+  height: 550px;
+  padding: 15px;
+  border-radius: 20px;
+  
 }
 
 #projecttitle {
-    font-size: 30px;
-    margin: 10px 50px 20px 50px;
-    padding: 10px;
-    border-bottom: 2px solid #000000;
+    font-size: 25px;
+    font-family: Noto;
+    margin: 30px 0 20px 0;
+    font-weight: 500;
+    color:rgb(19, 19, 128);
 }
 
 
@@ -52,13 +57,14 @@
     width: 80px;
     height: 35px;
     background-color: rgb(255, 255, 255);
-    margin: 20px 10px 0 0;
+    margin: 30px 10px 0 10px;
     border-radius: 30px;
     color: rgb(0, 0, 0);
     font-size: 15px;
 }
 
 #projectinfo {
-    font-size: 15px;
+    font-size: 16px;
+    text-align: left;
 }
 
