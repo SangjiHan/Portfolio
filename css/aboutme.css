@@ -6,18 +6,23 @@
     align-items: center;
     font-size: 40px;
     color: rgb(19, 19, 128);
+    position: relative;
 }
 
 #aboutmearea {
-    width: 1000px;
+    width: 1500px;
+    height: 900px;
     text-align: center;
-    height: 100vh;
+}
+
+#aboutMeContent {
+    justify-content: center;
+    display: inline-block;
 }
 
 #profileAboutMe {
     float: left;
-    margin: 80px 10px 0 10px;
-    
+    margin: 80px 50px 0 20px;
 }
 
 #profileAboutMe img {
@@ -28,9 +33,10 @@
 
 #info {
     border-collapse: collapse; 
-    margin: 50px;
+    margin: 50px 0 50px 0;
     font-size: 15px;
-    justify-content: center;
+    width: 700px;
+    right: 30px;
 }
 
 #info td:nth-child(odd) {
