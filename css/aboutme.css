@@ -14,10 +14,21 @@
     height: 100vh;
 }
 
+#profileAboutMe {
+    float: left;
+    margin: 80px 10px 0 10px;
+    
+}
+
+#profileAboutMe img {
+    width: 250px;
+    border-radius: 50%;
+}
+
 
 #info {
     border-collapse: collapse; 
-    margin: 0 auto;
+    margin: 50px;
     font-size: 15px;
     justify-content: center;
 }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio</title>
-
+	<script src="script/goToScroll.js"> </script>
 	
   
 	<link rel="stylesheet" href="css/body.css">
@@ -20,11 +20,11 @@
 <body>
 	<header>
 		<nav>
-			<a href="#">HOME</a>
-			<a href="#">ABOUT ME</a>
-			<a href="#">SKILLS</a>
-			<a href="#">PROJECT</a>
-			<a href="#">CONTACT</a>
+			<a onclick="goToScroll('home')"> HOME</a>
+			<a onclick="goToScroll('aboutmearea')">ABOUT ME</a>
+			<a onclick="goToScroll('skillsarea')">SKILLS</a>
+			<a onclick="goToScroll('projectarea')">PROJECT</a>
+			<a onclick="goToScroll('contactarea')">CONTACT</a>
 		</nav>
 		
 		
@@ -52,12 +52,14 @@
 			</div>
 			<img id="profile" src="image/profile1.jpg">
 			  
-			<div id="more"> 더 알아보기 </div>
+			<div id="more" onclick="goToScroll('aboutmearea')"> 더 알아보기 </div>
 		</div>
 		
 		<div id="aboutmearea">
 			<hr>
 			<div id="aboutme"> ABOUT ME </div>
+
+			<div id="profileAboutMe"> <img src="image/profile3.PNG"> </div>
 			
 			<table id="info">
 				<tr>
@@ -74,11 +76,11 @@
 				</tr>
 				<tr>
 					<td>교육 </td>
-					<td> 태블로 신병훈련소 24기&nbsp;&nbsp;&nbsp;&nbsp;( 2024.05 ~ 2024.06 )  <br>  그린컴퓨터 아카데미 풀스택 과정 &nbsp;&nbsp;&nbsp;&nbsp;( 2024.02.14 ~ )</td>
+					<td> 태블로 신병훈련소 24기&nbsp;&nbsp;&nbsp;&nbsp;( 2024.05 ~ 2024.06 )  <br>  그린 컴퓨터 아카데미 풀스택 과정 &nbsp;&nbsp;&nbsp;&nbsp;( 2024.02.14 ~ )</td>
 				</tr>
 				<tr>
 					<td> 자격증 </td>
-					<td> MOS master 2016 (2022.09.08) <br>  워드프로세서 (2022.06.24) <br> ADsP (데이터분석 준전문가) (2022.06.17) </td>
+					<td> SQLD (SQL개발자) (2024.06.21) <br> MOS master 2016 (2022.09.08) <br>  워드프로세서 (2022.06.24) <br> ADsP (데이터분석 준전문가) (2022.06.17) </td>
 				</tr>
 			</table>
 
