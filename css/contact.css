@@ -12,6 +12,7 @@
   width: 1500px;
     text-align: center;
     align-items: center;
+    opacity: 1;
 }
 
 #contactContent {
@@ -32,4 +33,9 @@
 #phone img, #email img, #github img {
   vertical-align: middle;
   margin-right: 10px;
+}
+
+#github a {
+  text-decoration-line: none;
+  color: inherit;
 }

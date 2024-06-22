@@ -12,6 +12,7 @@
     width: 1500px;
     text-align: center;
     align-items: center;
+    opacity: 0;
 }
 
 #projectbox{

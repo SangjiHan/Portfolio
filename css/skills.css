@@ -21,6 +21,10 @@ hr {
     border: 1px dashed rgb(212, 212, 212);
 }
 
+.frontend {
+  opacity: 0;
+}
+
 #skilltitle {
     font-size: 25px;
     font-family: Noto;

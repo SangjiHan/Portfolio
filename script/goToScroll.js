@@ -26,7 +26,7 @@ window.addEventListener('scroll',aboutMe)
 
 const skills = ()=>{
     const skillsArea = document.querySelector('#skillsarea')
-    console.log(skillsArea);
+
 
     if(skillsArea.getBoundingClientRect().top < windowHeight-600){
         setTimeout(()=>{
@@ -37,4 +37,20 @@ const skills = ()=>{
     }
 }
 window.addEventListener('scroll',skills)
+
+const project = ()=>{
+    const projectArea = document.querySelector('#projectarea')
+
+
+    if(projectArea.getBoundingClientRect().top < windowHeight-700){
+        setTimeout(()=>{
+            projectArea.style.animation = 'fadeInUp 2s'
+            projectArea.style.opacity = 1
+        },200) 
+        window.removeEventListener('scroll',project)
+    }
+}
+window.addEventListener('scroll',project)
+
+
 
