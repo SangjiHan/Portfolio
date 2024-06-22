@@ -10,5 +10,26 @@
 
 #contactarea {
   width: 1500px;
-  text-align: center;
+    text-align: center;
+    align-items: center;
+}
+
+#contactContent {
+  font-family: arial;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  margin-top: 60px;
+}
+
+#phone, #email, #github {
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#phone img, #email img, #github img {
+  vertical-align: middle;
+  margin-right: 10px;
 }

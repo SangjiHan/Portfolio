@@ -12,6 +12,7 @@
     width: 1500px;
     height: 900px;
     text-align: center;
+    opacity: 0;
 }
 
 hr {

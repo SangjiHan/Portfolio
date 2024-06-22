@@ -1,3 +1,36 @@
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(20%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-20%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
 #home {
     width: 1000px;
     height: 900px;
@@ -11,11 +44,13 @@
     margin-top: 100px;
     color: #ffffff;
     background-color: rgb(19, 19, 128);
+    animation: fadeInRight 3s;
 }
 #portfolio {
     font-family: sbm;
     font-size: 70px;
     color:#000000;
+    animation: fadeInLeft 3s;
 }
 
 #hello {
@@ -26,6 +61,7 @@
     float: left;
     position: relative; 
     margin-top: 50px;
+    animation: fadeInUp 3s;
 }
 
 #title {
@@ -51,7 +87,7 @@
     float: right;
     margin: 20px;
     display:inline-block;
-    
+    animation: fadeInUp 3s;
 }
 
 #more {
@@ -64,7 +100,7 @@
     position: absolute;
     bottom: 20px; 
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
 }
 
 
