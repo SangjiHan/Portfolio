@@ -20,22 +20,18 @@
   font-size: 20px;
   margin: 0 auto;
   width: 600px;
-  height: 400px;
+  height: 300px;
   margin-top: 60px;
 }
 
-#phone, #email, #github {
+#phone, #email {
   width: 400px;
   height: 100px;
   margin: 0 auto;
 }
 
-#phone img, #email img, #github img {
+#phone img, #email img {
   vertical-align: middle;
   margin-right: 10px;
 }
 
-#github a {
-  text-decoration-line: none;
-  color: inherit;
-}

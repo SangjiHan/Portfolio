@@ -25,21 +25,30 @@
             align-items: center;
 }
 
-#projectimg{
+#projectimg1{
     height: 300px;
   width: 300px;
-  margin: 10px 40px 0 0;
+  margin: 50px 40px 0 0;
   float: left;
   vertical-align: middle;
 }
 
 #projectimg2{
-height: 300px;
+    height: 300px;
   width: 300px;
-  margin: 40px 40px 0 0;
+  margin: 70px 40px 0 0;
   float: left;
   vertical-align: middle;
 }
+
+#projectimg3{
+    height: 300px;
+  width: 300px;
+  margin: 30px 40px 0 0;
+  float: left;
+  vertical-align: middle;
+}
+
 
 #tool {
     border: 1px solid black;
