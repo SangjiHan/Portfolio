@@ -36,12 +36,13 @@
 			<div id="portfolio"> Portfolio </div>
 			<div id="hello"> 
 				<div id="title"> 안녕하세요 <br> 
-					<span id="data">데이터로 소통하는 프론트엔드 개발자  </span>
+					<span id="data">데이터로 소통하는 개발자  </span>
 					<br> 한상지입니다.
 					<br>
 					<div id="titlelist"> 
-					<img src="image/checkbox.png" style="width: 15px;"> &nbsp;&nbsp; 웹 서비스를 개발할 수 있어요 <br>
-					<img src="image/checkbox.png" style="width: 15px;"> &nbsp;&nbsp; 데이터 분석이 가능해요 
+					<img src="image/checkbox.png" style="width: 15px;"> &nbsp;&nbsp; 웹 시스템을 설계하고 개발할 수 있어요 <br>
+					<img src="image/checkbox.png" style="width: 15px;"> &nbsp;&nbsp; 데이터 분석이 가능해요 <br>
+					<img src="image/checkbox.png" style="width: 15px;"> &nbsp;&nbsp; 데이터베이스 구축이 가능해요 <br>
 
 					</div>
 					
@@ -91,8 +92,8 @@
 				이후, 한국교육개발원에서 인턴을 하며 데이터베이스에 관련된 업무를 수행했습니다. <br>
 				인턴으로 근무하며 시스템이 기업의 성과를 가져오고, 업무의 효율을 높일 수 있다는 것을 깨닫게 되었습니다. <br>
 				데이터베이스에 관심을 갖게 되며, 프로그램에 대한 지식을 쌓고 역량을 기르고자 국비지원 교육 풀스택 과정을 듣게 되었습니다. <br>
-				그중에서도 사용자의 편리를 높일 수 있는 프론트엔드에 관심을 갖게 되었습니다. <br>
-				사용자의 편리성과 시스템의 성능을 높일 수 있는 프론트엔드 개발자가 되겠습니다.
+				데이터베이스 설계부터 기능구현, 프론트엔드의 웹 서비스를 개발할 수 있게 되었습니다.  <br>
+				사용자의 편리성과 시스템의 성능을 높일 수 있는 개발자가 되겠습니다.
 				</div>
 
 		</div>
@@ -140,7 +141,7 @@
 						<ul> 
 							<li> 데이터를 수집하고 분석할 수 있습니다. </li>
 							<li> 데이터베이스를 생성하고 구축할 수 있습니 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다. </li>
-							<li> 동적 웹사이트를 구현할 수 있습니다. </li>
+							<li> 웹사이트를 구현할 수 있습니다. </li>
 							<li> 웹 서버와 데이터베이스를 연결할 수 있습니 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다.</li>
 
 		
@@ -175,73 +176,90 @@
 
 		<div id="projectarea">
 			<hr>
-			<div id="project"> PROJECT</div>
-
-			
-
-
-			<div id="projectbox"> 
-				<div id="projectimg1" > 
+			<div id="project">PROJECT</div>
+		
+			<div class="projectbox">
+				<div class="projectimg" onclick="toggleProject('project1')">
 					<img src="image/weatherProject.png" width="300px">
 				</div>
-
-
-				<div id="projectinfo"> 
-					<div id="projecttitle"> 실시간 날씨 예보 사이트 </div>
-					<div id="projectduration"> 기간 : 2024.06 <br>  </div>
-					<div id="tool"> HTML </div> <div id="tool"> CSS </div> <div id="tool"> Javascript </div> <div id="tool"> Jquery </div> <div id="tool"> Json </div> <div id="tool"> Git </div> <div id="tool"> VScode </div> <br>
-					<div id="projectexplain"> 
-						weathermap 사이트의 오픈 API를 활용해 데이터를 송출하고, JSON 형식으로 동적 웹 사이트를 구현하였습니다. 실시간으로 날씨 정보를 제공하는 사이트입니다.
-						현재 지역별 날씨와 해당 지역의 시간별, 날짜별 날씨를 제공합니다. 또한, 다른 지역과의 날씨 비교가 가능합니다. 
-
+		
+				<div class="projectinfo">
+					<div class="projecttitle">실시간 날씨 예보 사이트</div>
+					<div class="projectduration">기간 : 2024.06</div>
+					<div class="tool">HTML</div>
+					<div class="tool">CSS</div>
+					<div class="tool">JavaScript</div>
+					<div class="tool">jQuery</div>
+					<div class="tool">JSON</div>
+					<div class="tool">Git</div>
+					<div class="tool">VScode</div>
+					<div class="projectexplain" id="project1">
+						weathermap 사이트의 오픈 API를 활용하여 실시간 날씨 정보를 제공하는 동적 웹 사이트입니다. 현재 지역별 날씨와 시간별, 날짜별 날씨를 비교할 수 있는 기능을 제공합니다.
 					</div>
-					
-				</div> 
-
-				<div id="link"> <img src="image/home.png" width="20px"> <a href="https://sangjihan.github.io/Weather/">사이트 방문하기 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="image/link.png" width="20px"> <a href="https://github.com/SangjiHan/Weather"> 코드보러가기 </a>  </div>
+				</div>
+		
+				<div id="link">
+					<img src="image/home.png" width="20px">
+					<a href="https://sangjihan.github.io/Weather/">사이트 방문하기</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="image/link.png" width="20px">
+					<a href="https://github.com/SangjiHan/Weather">코드보러가기</a>
+				</div>
 			</div>
-
-			<div id="projectbox"> 
-				<div id="projectimg2" > 
+		
+			<div class="projectbox">
+				<div class="projectimg" onclick="toggleProject('project2')">
 					<img src="image/movieproject.PNG" width="300px">
 				</div>
-
-
-				<div id="projectinfo"> 
-					<div id="projecttitle"> 영화 정보 제공 사이트 </div>
-					<div id="projectduration"> 기간 : 2024.02 ~ 2024.06 <br>  </div>
-					<div id="tool"> React </div> <div id="tool"> Node.js </div> <div id="tool"> HTML </div> <div id="tool"> CSS </div> <div id="tool"> Javascript </div> <div id="tool"> Json </div> <div id="tool"> Git </div> <div id="tool"> VScode </div> <br>
-					<div id="projectexplain"> 
-						React로 영화 정보 제공 사이트를 구현하였습니다.
-						Tmdb 사이트의 오픈 API를 활용해 데이터를 송출하고, JSON 형식으로 동적 웹 사이트입니다.
-						현재 상영작, 개봉예정작 등 영화에 대한 정보와 각 영화의 상세 정보를 제공합니다.</div>
-					
-				</div> 
-
-				<div id="link"> <img src="image/home.png" width="20px"> <a href="https://sangjihan.github.io/MovieCloud/">사이트 방문하기 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="image/link.png" width="20px"> <a href="https://github.com/SangjiHan/MovieCloud"> 코드보러가기 </a>  </div>
-			</div>
-
-			<div id="projectbox"> 
-				<div id="projectimg3" > 
-					<img src="image/chatProject.PNG" width="300px">
+		
+				<div class="projectinfo">
+					<div class="projecttitle">영화 정보 제공 사이트</div>
+					<div class="projectduration">기간 : 2024.02 ~ 2024.06</div>
+					<div class="tool">React</div>
+					<div class="tool">Node.js</div>
+					<div class="tool">HTML</div>
+					<div class="tool">CSS</div>
+					<div class="tool">JavaScript</div>
+					<div class="tool">JSON</div>
+					<div class="tool">Git</div>
+					<div class="tool">VScode</div>
+					<div class="projectexplain" id="project2">
+						Tmdb 사이트의 오픈 API를 활용하여 영화 정보를 제공하는 동적 웹 사이트입니다. 상영작, 개봉 예정작 등 영화에 대한 다양한 정보를 제공하며, 각 영화의 상세 정보를 조회할 수 있습니다.
+					</div>
 				</div>
-
-
-				<div id="projectinfo"> 
-					<div id="projecttitle"> 웹 채팅 사이트 </div>
-					<div id="projectduration"> 기간 : 2024.06 ~ <br>  </div>
-					<div id="projectDetail"> 참여 인원 : 4명 </div>
-					<div id="projectDetail"> 역할 </div>
-					<div id="tool"> HTML </div> <div id="tool"> CSS </div> <div id="tool"> Javascript </div> <div id="tool"> Oracle </div> <div id="tool"> Json </div> <div id="tool"> Git </div> <div id="tool"> VScode </div> <br>
-					<div id="projectexplain"> Javascript를 활용해 회원가입 유효성 검사를 작성했습니다. 데이터를 fetch하여 백엔드로부터 데이터를 호출하고 송출하였습니다. Json 형식으로 데이터를 불러와 사용자 정보, 친구 추가, 서버 기능을 구현하였습니다. </div>
-					
-				</div> 
-
+		
+				<div id="link">
+					<img src="image/home.png" width="20px">
+					<a href="https://sangjihan.github.io/MovieCloud/">사이트 방문하기</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="image/link.png" width="20px">
+					<a href="https://github.com/SangjiHan/MovieCloud">코드보러가기</a>
+				</div>
 			</div>
-
-
-			
-			
+		
+			<div class="projectbox">
+				<div class="projectimg" onclick="toggleProject('project3')">
+					<img src="image/chatProject.PNG" alt="프로젝트 이미지" width="300px">
+				</div>
+		
+				<div class="projectinfo">
+					<div class="projecttitle">웹 채팅 사이트</div>
+					<div class="projectduration">기간 : 2024.06 ~</div>
+					<div class="tool">HTML</div>
+					<div class="tool">CSS</div>
+					<div class="tool">JavaScript</div>
+					<div class="tool">Oracle</div>
+					<div class="tool">JSON</div>
+					<div class="tool">Java</div>
+					<div class="tool">WebSocket</div>
+					<div class="tool">SpringBoot</div>
+					<div class="tool">Git</div>
+					<div class="tool">VScode</div>
+					<div class="projectexplain" id="project3">
+						데이터베이스 설계 및 구축, RESTful API를 활용한 비동기 통신, 친구 추가 기능 구현, 채팅방 관련 기능 개발, JavaScript를 활용한 클라이언트 측 유효성 검사 등을 포함한 웹 채팅 사이트입니다.
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div id="contactarea">
