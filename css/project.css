@@ -13,156 +13,68 @@
     text-align: center;
     align-items: center;
     opacity: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-#projectbox{
+.projectbox {
     width: 1000px;
-  height: 300px;
-  display: inline-block;
-  margin: 50px 20px 20px 20px;
-  vertical-align: top;
-  justify-content: center;
+    height: 300px;
+    display: flex;
+    margin: 50px 20px 20px 20px;
+    vertical-align: middle;
+    justify-content: center;
     align-items: center;
     border: 2px solid rgb(19, 19, 128);
 }
 
-#projectimg1{
-    height: 300px;
-  width: 300px;
-  margin: 50px 40px 0 0;
-  float: left;
-  vertical-align: middle;
+.projectimg {
+    float: left;
+    margin: 20px;
 }
 
-#projectimg2{
-    height: 300px;
-  width: 300px;
-  margin: 70px 40px 0 0;
-  float: left;
-  vertical-align: middle;
+.projectinfo {
+    width: 600px;
+    float: right;
+    text-align: left;
 }
 
-#projectbox3 {
-    display: flex;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
+.projecttitle {
+    font-family: 'Noto', sans-serif;
+    font-size: 20px;
+    margin: 5px;
 }
 
-#projectimg3 img {
-    width: 300px;
-    height: auto;
-    object-fit: cover;
+.projectduration {
+    font-family: 'Noto', sans-serif;
+    font-size: 15px;
+    margin: 5px;
 }
 
-#projectinfo {
-    padding: 20px;
-    flex-grow: 1;
-    background-color: #f9f9f9;
-}
-
-#projecttitle {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-#projectduration {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-#projectDetail {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-#tool {
+.tool {
     display: inline-block;
-    background-color: #ddd;
-    color: #333;
-    padding: 5px 10px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin: 0 3px 3px 3px;
 }
 
-#projectexplain {
+.projectexplain {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.link {
     margin-top: 20px;
 }
 
-#projectRole1 {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-#projectExplain1 {
-    margin-bottom: 10px;
-}
-
-
-#tool {
-    border: 1px solid black;
-    width: 80px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 500;
-}
-
-#projectbox3 {
-    width: 1000px;
-  display: inline-block;
-  margin: 50px 20px 20px 20px;
-  vertical-align: top;
-  justify-content: center;
-    align-items: center;
-border: 2px solid rgb(19, 19, 128);
-}
-
-#projecttitle {
-    font-size: 25px;
-    font-family: Noto;
-    font-weight: 500;
-    color:rgb(19, 19, 128);
-}
-
-
-#projectduration {
-    margin-bottom: 5px;
-    font-weight: 600;
-}
-
-#projectinfo {   
-   text-align: left;    
-}
-
-#projectexplain {
-    font-size: 16px;
-    margin-top: 10px;
-    line-height: 2;
-}
-#link {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    justify-content: left;
-    gap: 20px; 
-}
-
-#link img {
-    vertical-align: middle;
-}
-
 #link a {
-    text-decoration: none;
     color: black;
-    line-height: 30px; 
+    text-decoration: none; 
 }
 
-#projectDetail {
-    font-size: 15px;
-    font-weight: 500;
+#link a:hover {
+    color: red; 
 }
