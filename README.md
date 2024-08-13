@@ -5,9 +5,9 @@
 
 # 👋 소개
 
-- 강남 맛집 추천 사이트에 오신 것을 환영합니다! <br />
-- 이 사이트는 맛집을 종류별, 지역별로 구분하여 쉽게 찾을 수 있도록 도와줍니다. <br />
-- 회원 가입 후에는 직접 맛집 리뷰를 작성하고, 맛집을 신청하거나 저장할 수 있는 기능도 제공됩니다. <br />
+> 강남 맛집 추천 사이트에 오신 것을 환영합니다! <br />
+> 이 사이트는 맛집을 종류별, 지역별로 구분하여 쉽게 찾을 수 있도록 도와줍니다. <br />
+> 회원 가입 후에는 직접 맛집 리뷰를 작성하고, 맛집을 신청하거나 저장할 수 있는 기능도 제공됩니다. <br />
 
 <br />
 
@@ -26,13 +26,35 @@
 <br />
 
 # 개발 도구
-> 개발 언어 <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript badge"> <img src="https://img.shields.io/badge/JAVA-F7E03C?style=for-the-badge&logo=java&logoColor=000000" alt="JAVA badge"><img src="https://img.shields.io/badge/JSP-red?style=for-the-badge&logo=jsp&logoColor=gray" alt="JSP badge"> <br />
-> 개발 환경 <img src="https://img.shields.io/badge/STS4-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Tool Suite 4 badge"> <br />
-> 데이터베이스 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&color=4479A1" alt="MySQL badge"> <br />
-> 빌드 <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white&color=02303A" alt="Gradle badge"> <br />
-> 형상 관리 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=F05032" alt="Git badge"> <br />
-> 프레임워크 : <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge"> <img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge"> <img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge"> <br />
+<p style="font-weight: bold; font-size: 1.2em;">개발 언어</p>
+<img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript badge">
+<img src="https://img.shields.io/badge/JAVA-F7E03C?style=for-the-badge&logo=java&logoColor=000000" alt="JAVA badge">
+<img src="https://img.shields.io/badge/JSP-red?style=for-the-badge&logo=jsp&logoColor=gray" alt="JSP badge">
+<br />
 
+<p style="font-weight: bold; font-size: 1.2em;">개발 환경</p>
+<img src="https://img.shields.io/badge/STS4-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Tool Suite 4 badge">
+<br />
+
+<p style="font-weight: bold; font-size: 1.2em;">데이터베이스</p>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL badge">
+<br />
+
+<p style="font-weight: bold; font-size: 1.2em;">빌드</p>
+<img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle badge">
+<br />
+
+<p style="font-weight: bold; font-size: 1.2em;">형상 관리</p>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git badge">
+<br />
+
+<p style="font-weight: bold; font-size: 1.2em;">프레임워크</p>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge">
+<img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge">
+<img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge">
+<br />
 <br />
 
 ## 1. 🌞: Weather
