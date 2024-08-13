@@ -26,26 +26,26 @@
 <br />
 
 # 개발 도구
-> 개발 언어 <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript badge"> <img src="https://img.shields.io/badge/JAVA-F7E03C?style=for-the-badge&logo=java&logoColor=000000" alt="JAVA badge"><img src="https://img.shields.io/badge/JSP-red?style=for-the-badge&logo=jsp&logoColor=gray" alt="JSP badge"> <br />
-> 개발 환경 <img src="https://img.shields.io/badge/STS4-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Tool Suite 4 badge"> <br />
-> 데이터베이스 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&color=4479A1" alt="MySQL badge"> <br />
-> 빌드 <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white&color=02303A" alt="Gradle badge"> <br />
-> 형상 관리 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=F05032" alt="Git badge"> <br />
-> 프레임워크 : <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge"> <img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge"> <img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge"> <br />
+- 개발 언어 <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript badge"> <img src="https://img.shields.io/badge/JAVA-F7E03C?style=for-the-badge&logo=java&logoColor=000000" alt="JAVA badge"><img src="https://img.shields.io/badge/JSP-red?style=for-the-badge&logo=jsp&logoColor=gray" alt="JSP badge"> <br />
+- 개발 환경 <img src="https://img.shields.io/badge/STS4-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Tool Suite 4 badge"> <br />
+- 데이터베이스 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&color=4479A1" alt="MySQL badge"> <br />
+- 빌드 <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white&color=02303A" alt="Gradle badge"> <br />
+- 형상 관리 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=F05032" alt="Git badge"> <br />
+- 프레임워크 : <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge"> <img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge"> <img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge"> <br />
  <br />
 
 
 # 파일 설치 가이드
-> 프로젝트의 모든 파일을 다운로드하여 로컬 환경에 저장합니다. <br />
-> [Spring Tool Suite 4 공식 웹사이트](https://spring.io/tools)에서 STS4를 다운로드하고 설치합니다. <br />
-> [JDK 17 다운로드 페이지](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)에서 JDK 17을 다운로드하여 설치합니다. <br />
-> JDK 설치 후, 환경변수 JAVA_HOME을 JDK가 설치된 경로로 설정합니다. <br />
-> [Lombok 공식 웹사이트](https://projectlombok.org/)에서 Lombok JAR 파일을 다운로드합니다. <br />
-> 다운로드한 Lombok JAR 파일을 STS4의 dropins 폴더에 복사합니다. (예: C:\Program Files\SpringToolSuite4\dropins) <br />
-> [MySQL 공식 웹사이트](https://dev.mysql.com)에서 MySQL을 다운로드하여 설치합니다. <br />
-> MySQL 설치 후, yummy라는 사용자와 yummy라는 데이터베이스를 생성합니다. <br />
-> 설치가 완료된 STS4를 실행합니다. <br />
-> 웹 브라우저를 열고 http://localhost:8085를 입력하여 애플리케이션이 정상적으로 실행되는지 확인합니다. <br />
+- 프로젝트의 모든 파일을 다운로드하여 로컬 환경에 저장합니다. <br />
+- [Spring Tool Suite 4 공식 웹사이트](https://spring.io/tools)에서 STS4를 다운로드하고 설치합니다. <br />
+- [JDK 17 다운로드 페이지](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)에서 JDK 17을 다운로드하여 설치합니다. <br />
+- JDK 설치 후, 환경변수 JAVA_HOME을 JDK가 설치된 경로로 설정합니다. <br />
+- [Lombok 공식 웹사이트](https://projectlombok.org/)에서 Lombok JAR 파일을 다운로드합니다. <br />
+- 다운로드한 Lombok JAR 파일을 STS4의 dropins 폴더에 복사합니다. (예: C:\Program Files\SpringToolSuite4\dropins) <br />
+- [MySQL 공식 웹사이트](https://dev.mysql.com)에서 MySQL을 다운로드하여 설치합니다. <br />
+- MySQL 설치 후, yummy라는 사용자와 yummy라는 데이터베이스를 생성합니다. <br />
+- 설치가 완료된 STS4를 실행합니다. <br />
+- 웹 브라우저를 열고 http://localhost:8085를 입력하여 애플리케이션이 정상적으로 실행되는지 확인합니다. <br />
 
 ## 1. 🌞: Weather
 
