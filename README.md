@@ -67,103 +67,48 @@
 
 <br />
 
-### 주요 기능 
-## 1. 회원가입
+## 주요 기능 
+### 1. 회원가입
 > ![그림4](https://github.com/user-attachments/assets/1fc15fe7-dc66-46c2-96f5-202a07483af7) <br />
 > - 유효성 검사: 회원가입 시 입력된 값에 대해 유효성 검사를 진행하여 올바른 형식과 범위 내의 값만 허용합니다. <br />
 > - 중복 확인: 사용자가 입력한 값(예: 이메일, 사용자 이름 등)의 중복 여부를 확인하여 이미 등록된 정보와의 충돌을 방지합니다. <br />
 
 <br />
 
-## 2. 메인 화면
+### 2. 메인 화면
 >  ![그림3](https://github.com/user-attachments/assets/3e9e2237-e2d1-44e6-9409-66293fd773f4) <br />
 > - 검색 기능: 사용자는 가게명, 지역별, 업종별로 맛집을 검색할 수 있습니다. 이를 통해 원하는 맛집을 쉽게 찾을 수 있습니다. <br />
 > - 메인 배너: 홍보용 사진이 슬라이드 효과로 표시되며, 주요 정보나 이벤트를 시각적으로 강조합니다.  <br />
 > - 맛집 랜덤 추천: 랜덤으로 맛집 리스트가 제공되며, 리스트에서 맛집을 클릭하면 해당 맛집의 상세 정보를 확인할 수 있습니다. <br />
 <br />
 
-> Language: HTML, CSS, JavaScript
-> 
-> [프로젝트 상세 설명](https://github.com/SangjiHan/MovieCloud)
 
+### 3. 리뷰 작성
+> ![그림5](https://github.com/user-attachments/assets/6eb70294-9515-4500-80d0-ea06a1d854ff) <br />
+> - 리뷰 작성: 사용자는 맛집에 대한 리뷰를 작성할 수 있으며, 별점을 통해 자신의 평가를 남길 수 있습니다. <br />
+> - 사진 업로드: AddMvcConfiguration을 사용하여 리뷰에 관련된 사진을 실시간으로 업로드할 수 있으며, 업로드된 사진은 리뷰와 함께 표시됩니다. <br />
+<br />
+### 4. 가게 리스트 
+> ![그림12](https://github.com/user-attachments/assets/1a26f490-80e5-4dfb-b6cb-966ca02ebf7b) <br />
+> - 가게 리스트: 검색 결과로 나타난 가게들의 리스트를 확인할 수 있으며, 각 가게의 기본 정보와 함께 표시됩니다. <br />
+> - 지도 기능: 선택한 가게의 위치가 지도에 표시되어, 사용자가 가게의 위치를 시각적으로 확인할 수 있습니다. <br />
 <br />
 
-## 3. 👱: ChatService
+### 5. 나의 맛집
+> ![그림7](https://github.com/user-attachments/assets/9369f6c8-9931-4f1b-a94d-72a174bab3d8)  <br />
+> - 맛집 컬렉션: 사용자가 관심 있는 맛집을 저장하여 나만의 맛집 컬렉션을 만들 수 있습니다. 저장한 맛집은 쉽게 접근하고 관리할 수 있습니다.  <br />
+> - 리뷰 리스트: 사용자가 작성한 리뷰를 확인할 수 있으며, 리뷰를 수정하거나 삭제할 수 있는 기능이 제공됩니다. 이를 통해 리뷰를 업데이트하거나 필요에 따라 제거할 수 있습니다.  <br />
+ <br />
 
-> 웹 채팅 사이트
->
-> - 개발기간 : 2024.05 - 2024.06
-> - 핵심 역할 : 실시간 웹 채팅 사이트, DB 구축, 친구 추가 기능, 서버 생성 기능, Restful API
->   
-> 프론트엔드:
-> Language: HTML, CSS, JavaScript
-> 
-> 백엔드:
-> Language: Java, JSP
-> Frameworks: Spring Boot, JPA, WebSocket
->Database: Oracle
-> 
-> [프로젝트 상세 설명](https://github.com/SangjiHan/chatService)
-
+### 6. 맛집 신청
+> ![그림9](https://github.com/user-attachments/assets/b8a7e3e6-d440-4c13-873c-cadfe39268c8)  <br />
+> - 맛집 신청: 사용자가 자신만의 맛집 정보를 시스템에 제출하여 공유할 수 있는 기능입니다. 이를 통해 새로운 맛집을 추천하고, 다른 사용자와 정보를 공유할 수 있습니다. <br />
 <br />
 
-## 4. 🥘: yummy
-
->  강남 맛집 추천 사이트
->
-> - 개발기간 : 2024.07 - 2024.08
-> - 핵심 역할 : DB 생성 및 연동, 맛집 검색 기능, 랜덤 리스트 출력 기능, 맛집 저장 기능, 리뷰 작성 기능
->   
-> 프론트엔드:
-> Language: HTML, CSS, JavaScript
-> 
-> 백엔드:
-> Language: Java, JSP
-> Frameworks: Spring Boot, JPA
-> Database: MySQL
-> 
-> [프로젝트 상세 설명](https://github.com/davidtwo000/green-yummy-project)
-
+### 7. 관리자 페이지
+>![그림10](https://github.com/user-attachments/assets/5bbf6ed1-84e7-4870-afa1-914e46512e6e) <br />
+> - 관리자 페이지: 관리자는 사용자, 리뷰, 가게 정보를 수정하거나 삭제할 수 있는 기능을 제공합니다. 이를 통해 시스템의 데이터를 효율적으로 관리할 수 있습니다. <br />
+> - 맛집 신청 관리: 사용자로부터 제출된 맛집 신청 내역을 확인하고, 필요한 경우 가게 정보를 등록하거나 거절할 수 있는 기능을 제공합니다. <br />
+> - 리스트 페이지네이션: 리스트는 페이지네이션 기능을 사용하여 한 페이지에 10개의 항목을 표시합니다. 관리자는 페이지를 넘기면서 항목을 효율적으로 탐색할 수 있습니다. <br />
 <br />
 
-# 📝 Stack
-> 제가 사용할 수 있는 기술입니다
-
-### Front-end
-
-<div>
-    <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white&color=F16529" alt="HTML5 badge">
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&color=1572B6" alt="CSS3 badge">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000&color=F7DF1E" alt="JavaScript badge">
-    <img src="https://img.shields.io/badge/JSP-F7E03C?style=for-the-badge&logo=java&logoColor=000000&color=F7E03C" alt="JSP badge">
-</div>
-
-### Back-end
-
-<div>
-    <img src="https://img.shields.io/badge/Java-F89820?style=for-the-badge&logo=java&logoColor=white&color=F89820" alt="Java badge">
-    
-    <img src="https://img.shields.io/badge/JPA-007396?style=for-the-badge&logo=java&logoColor=white&color=007396" alt="JPA badge">
-    <img src="https://img.shields.io/badge/WebSocket-00BFAE?style=for-the-badge&logo=WebSocket&logoColor=white&color=00BFAE" alt="WebSocket badge">
-    <img src="https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white&color=306998" alt="Python badge">
-</div>
-
-### Database
-
-<div>
-    <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white&color=F80000" alt="Oracle badge">
-    
-</div>
-
-### Build Tools
-
-<div>
-    <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white&color=C71A36" alt="Maven badge">
-    
-</div>
-
-### Version Control
-
-<div>
-    
-</div>
