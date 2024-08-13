@@ -1,22 +1,35 @@
-![header](https://capsule-render.vercel.app/api?type=Rounded&color=0:FA8072,100:FA8072&height=200&text=실시간%20날씨%20예보&fontColor=white&fontSize=40&width=700&fontAlignY=50)
+![header](https://capsule-render.vercel.app/api?type=Rounded&color=0:FA8072,100:FA8072&height=200&text=강남%20맛집%20추천&fontColor=FFFFFF&fontSize=40&width=700&fontAlignY=50)
 
-> 한상지(Sangji Han)의 포트폴리오입니다!
-
-<br />
-
-# 👋 Intro
-
-> 안녕하세요! ***"항상 새로운 것을 배우고 도전하고 싶은"*** 한상지입니다!  <br />
-> 6개월간 프론트엔드, DB 설계, 백엔드까지 개발자로서의 역량을 길러왔습니다. <br />
-> 사용자 인터페이스에 도움을 주고 시스템의 안정을 가져올 수 있는 개발자가 되고 싶습니다.<br />
 
 <br />
 
-# 📝Projects
-6개월간 진행했던 프로젝트입니다!<br />
-다양한 프로젝트를 통해
-웹 사이트를 설계하고 제작할 수 있었습니다! <br />
-다양한 팀원과 함께 협력하며 프로젝트를 수행하며 '소통' 능력도 길러왔습니다 <br />
+# 👋 소개
+
+> 강남 맛집 추천 사이트에 오신 것을 환영합니다! <br />
+> 이 사이트는 맛집을 종류별, 지역별로 구분하여 쉽게 찾을 수 있도록 도와줍니다. <br />
+> 회원 가입 후에는 직접 맛집 리뷰를 작성하고, 맛집을 신청하거나 저장할 수 있는 기능도 제공됩니다. <br />
+
+<br />
+
+# 🧑‍🤝‍🧑: 팀원 소개 
+> 유영현(팀장) : 형상 관리 및 사용자 페이지 기능 구현 담당 <br />
+> 박일규 : 관리자 페이지 UI/UX 디자인 및 기능 구현 담당 <br />
+> 이혜민 : 사용자 페이지 UI/UX 디자인 및 전체 프론트엔드 디자인 담당 <br />
+> 한상지 : 데이터베이스 설계 및 연동, 리뷰/검색/가게 리스트 기능 구현 담당 <br />
+
+<br />
+
+# 프로젝트 기간
+> 2024.07 ~ 2024.08
+
+<br />
+
+# 개발 도구
+> 개발 언어 
+>>  <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white&color=F16529" alt="HTML5 badge">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&color=1572B6" alt="CSS3 badge">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000&color=F7DF1E" alt="JavaScript badge">
+    <img src="https://img.shields.io/badge/JSP-F7E03C?style=for-the-badge&logo=java&logoColor=000000&color=F7E03C" alt="JSP badge">
 
 
 ## 1. 🌞: Weather
@@ -29,7 +42,7 @@
 > 프론트엔드:
 > Language: HTML, CSS, JavaScript <br />
 >
->> [프로젝트 상세 설명](https://github.com/SangjiHan/Weather)  
+> [프로젝트 상세 설명](https://github.com/SangjiHan/Weather)  
 
 
 <br />
