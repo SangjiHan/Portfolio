@@ -27,11 +27,7 @@
 
 # 개발 도구
 <p style="font-weight: bold; font-size: 1.2em;">개발 언어</p>
-<img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript badge">
-<img src="https://img.shields.io/badge/JAVA-F7E03C?style=for-the-badge&logo=java&logoColor=000000" alt="JAVA badge">
-<img src="https://img.shields.io/badge/JSP-red?style=for-the-badge&logo=jsp&logoColor=gray" alt="JSP badge">
+<img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript badge"> <img src="https://img.shields.io/badge/JAVA-F7E03C?style=for-the-badge&logo=java&logoColor=000000" alt="JAVA badge"> <img src="https://img.shields.io/badge/JSP-red?style=for-the-badge&logo=jsp&logoColor=gray" alt="JSP badge">
 <br />
 
 <p style="font-weight: bold; font-size: 1.2em;">개발 환경</p>
@@ -51,9 +47,7 @@
 <br />
 
 <p style="font-weight: bold; font-size: 1.2em;">프레임워크</p>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge">
-<img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge">
-<img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge">
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge"> <img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge"> <img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge">
 <br />
 <br />
 
