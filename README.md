@@ -43,7 +43,7 @@
 - [Lombok 공식 웹사이트](https://projectlombok.org/)에서 Lombok JAR 파일을 다운로드합니다. <br />
 - 다운로드한 Lombok JAR 파일을 STS4의 dropins 폴더에 복사합니다. (예: C:\Program Files\SpringToolSuite4\dropins) <br />
 - [MySQL 공식 웹사이트](https://dev.mysql.com)에서 MySQL을 다운로드하여 설치합니다. <br />
-- MySQL 설치 후, yummy라는 사용자와 yummy라는 데이터베이스를 생성합니다. <br />
+- MySQL 설치 후, yummy라는 사용자와 yummy라는 데이터베이스를 생성합니다. 사용자 yummy의 비밀번호를 1234로 설정합니다. <br />
 - 설치가 완료된 STS4를 실행합니다. <br />
 - 웹 브라우저를 열고 http://localhost:8085를 입력하여 애플리케이션이 정상적으로 실행되는지 확인합니다. <br />
 <br />
