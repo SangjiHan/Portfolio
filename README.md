@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=0:salmon,100:salmon&height=200&text=실시간%20날씨%20예보&fontColor=white&fontSize=40&width=700&fontAlignY=35)
+![header](https://capsule-render.vercel.app/api?type=rect&color=0:FA8072,100:FA8072&height=200&text=실시간%20날씨%20예보&fontColor=white&fontSize=40&width=700&fontAlignY=35)
 
 > 한상지(Sangji Han)의 포트폴리오입니다!
 
