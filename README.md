@@ -32,7 +32,20 @@
 > 빌드 <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white&color=02303A" alt="Gradle badge"> <br />
 > 형상 관리 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=F05032" alt="Git badge"> <br />
 > 프레임워크 : <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge"> <img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge"> <img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge"> <br />
- <br />  
+ <br />
+
+
+# 파일 설치 가이드
+> 프로젝트의 모든 파일을 다운로드하여 로컬 환경에 저장합니다.
+> [Spring Tool Suite 4 공식 웹사이트](https://spring.io/tools)에서 STS4를 다운로드하고 설치합니다.
+> [JDK 17 다운로드 페이지](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)에서 JDK 17을 다운로드하여 설치합니다.
+> JDK 설치 후, 환경변수 JAVA_HOME을 JDK가 설치된 경로로 설정합니다.
+> [Lombok 공식 웹사이트](https://projectlombok.org/)에서 Lombok JAR 파일을 다운로드합니다.
+> 다운로드한 Lombok JAR 파일을 STS4의 dropins 폴더에 복사합니다. (예: C:\Program Files\SpringToolSuite4\dropins)
+> [MySQL 공식 웹사이트](https://dev.mysql.com)에서 MySQL을 다운로드하여 설치합니다.
+> MySQL 설치 후, yummy라는 사용자와 yummy라는 데이터베이스를 생성합니다.
+> 설치가 완료된 STS4를 실행합니다.
+> 웹 브라우저를 열고 http://localhost:8085를 입력하여 애플리케이션이 정상적으로 실행되는지 확인합니다.
 
 ## 1. 🌞: Weather
 
