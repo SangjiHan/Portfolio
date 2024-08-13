@@ -25,12 +25,12 @@
 <br />
 
 # 개발 도구
-> 개발 언어 <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript badge"><img src="https://img.shields.io/badge/JAVA-F7E03C?style=for-the-badge&logo=java&logoColor=000000" alt="JAVA badge"><img src="https://img.shields.io/badge/JSP-white?style=for-the-badge&logo=jsp&logoColor=gray" alt="JSP badge"> <br />
+> 개발 언어 <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 badge"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 badge"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript badge"> <img src="https://img.shields.io/badge/JAVA-F7E03C?style=for-the-badge&logo=java&logoColor=000000" alt="JAVA badge"><img src="https://img.shields.io/badge/JSP-red?style=for-the-badge&logo=jsp&logoColor=gray" alt="JSP badge"> <br />
 > 개발 환경 <img src="https://img.shields.io/badge/STS4-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Tool Suite 4 badge"> <br />
 > 데이터베이스 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&color=4479A1" alt="MySQL badge"> <br />
 > 빌드 <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white&color=02303A" alt="Gradle badge"> <br />
 > 형상 관리 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=F05032" alt="Git badge"> <br />
-> 프레임워크 : <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge"><img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge"><img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge"> <br />
+> 프레임워크 : <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot badge"> <img src="https://img.shields.io/badge/JPA-0074CC?style=for-the-badge&logo=java&logoColor=white" alt="JPA badge"> <img src="https://img.shields.io/badge/MyBatis-00205B?style=for-the-badge&logo=mybatis&logoColor=white" alt="MyBatis badge"> <br />
 
 <br />
 
